@@ -24,7 +24,6 @@ public class InputManager : MonoBehaviour
         {
             tweener.AddTween(item.transform, item.transform.position, new Vector3(7.0f,-15f,0.0f), 1.5f);
         }
-
         if (item.transform.position == new Vector3(7.0f, -15.0f, 0.0f))
         {
             tweener.AddTween(item.transform, item.transform.position, new Vector3(7.0f, -19.0f, 0.0f), 1.5f);
